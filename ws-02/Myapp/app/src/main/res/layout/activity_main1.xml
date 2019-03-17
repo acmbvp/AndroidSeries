@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Main1">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:background="@drawable/button_round_stroked"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="food or phone" />
+
+    <Button
+        android:id="@+id/button"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_round_gradient"
+        android:text="Show List"
+        android:layout_margin="20dp"
+        android:onClick="Click"/>
+
+
+
+    <Button
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_round_gradient"
+        android:layout_margin="20dp"
+        android:onClick="webClick"
+        android:text="Check Google" />
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CALCULATOR"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="60dp"
+            android:textSize="30dp"
+            />
+
+        <EditText
+            android:id="@+id/num1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="150dp"
+            android:hint="ENTER FIRST NUMBER"
+            />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginTop="220dp"
+        android:layout_alignLeft="@id/num1"
+        android:hint="ENTER SECOND NUMBER"
+        />
+
+    <Button
+        android:id="@+id/add1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADDITION"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="60dp"
+        android:onClick="addbutton"
+        />
+
+    <Button
+        android:id="@+id/sub1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBTRACTION"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="250dp"
+        android:onClick="subbutton"
+        />
+
+    <Button
+        android:id="@+id/mul1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MULTIPLICATION"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="250dp"
+        android:onClick="mulbutton"
+        />
+
+    <Button
+        android:id="@+id/div1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DIVISION"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="60dp"
+        android:onClick="divbutton"
+        />
+    <TextView
+        android:id="@+id/ans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANSWER"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="550dp"
+        android:textSize="30dp"
+        />
+
+</RelativeLayout>
